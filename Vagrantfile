@@ -40,8 +40,8 @@ Vagrant.configure("2") do |config|
   # using a specific IP.
   config.vm.network :private_network, ip: "192.168.33.12"
   # ~/.ssh/config
-  #Host dotnet
-  #  HostName        192.168.33.11
+  #Host nodeenv
+  #  HostName        192.168.33.12
   #  Port            22
   #  User            vagrant
   # IdentityFile    ~/.ssh/vagrant_id_rsa
