@@ -88,6 +88,9 @@ installNodejs(){
     # show  version
     node -v
     which node
+
+    # install server util
+    npm install -g forever
 }
 
 # install X virtual framebuffer
