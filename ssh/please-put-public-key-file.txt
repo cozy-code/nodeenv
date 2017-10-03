@@ -1,0 +1,3 @@
+file name must be "vagrant_id_rsa.pub"
+
+> ssh-keygen -t rsa -b 2048 -f ~/vagrant_id_rsa
